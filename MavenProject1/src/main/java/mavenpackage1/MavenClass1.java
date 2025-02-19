@@ -7,6 +7,7 @@ int a;
 		MavenClass1 mc=new MavenClass1("Hello");
 		MavenClass1 mc1=new MavenClass1(5);
 	mc1.instancemethod(3);
+	mc1.instancemethod2();
 		
 	}
 	public static int param1(int a , int b)
@@ -29,5 +30,9 @@ int a;
 	int m=a*b;
 	System.out.println(m);
  }
- 
+ public void instancemethod2()
+ {
+	
+	System.out.println(a);
+ }
 }
